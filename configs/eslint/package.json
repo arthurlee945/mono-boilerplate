@@ -4,13 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "files": [
-    "./base.js",
-    "./nextjs.js",
-    "./react.js"
+    "./base.cjs",
+    "./nextjs.cjs",
+    "./react.cjs"
   ],
   "scripts": {
     "clean": "rm -rf .turbo node_modules",
-    "lint": "eslint .",
+    "lint": "eslint \"**/*.{js,cjs}\"",
     "format": "prettier --check \"**/*.{mjs,ts,md,json}\""
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "./base.js"
+      "./base.cjs"
     ]
   },
   "prettier": "@repo/prettier"

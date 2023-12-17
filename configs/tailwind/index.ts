@@ -1,4 +1,3 @@
-import FormPlugin from "@tailwindcss/forms";
 import { type Config } from "tailwindcss";
 import defaultColors from "tailwindcss/colors";
 import { fontFamily } from "tailwindcss/defaultTheme";
@@ -31,7 +30,6 @@ export default {
       },
     },
   },
-  plugins: [FormPlugin],
 } satisfies Config;
 
 //------------------------------------------------

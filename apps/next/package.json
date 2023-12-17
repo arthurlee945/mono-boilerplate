@@ -11,6 +11,7 @@
     "clean": "git clean -xdf .next .turbo node_modules pnpm-lock.yaml"
   },
   "dependencies": {
+    "@repo/ui": "workspace:^",
     "next": "14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -35,9 +36,9 @@
     "extends": [
       "next",
       "next/core-web-vitals",
-      "@repo/eslint-config/base.js",
-      "@repo/eslint-config/nextjs.js",
-      "@repo/eslint-config/react.js"
+      "@repo/eslint-config/base.cjs",
+      "@repo/eslint-config/nextjs.cjs",
+      "@repo/eslint-config/react.cjs"
     ]
   },
   "prettier": "@repo/prettier"
