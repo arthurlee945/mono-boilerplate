@@ -2,10 +2,11 @@ import FormPlugin from "@tailwindcss/forms";
 import { type Config } from "tailwindcss";
 import defaultColors from "tailwindcss/colors";
 import { fontFamily } from "tailwindcss/defaultTheme";
+
 import { colors } from "./defaults/colors";
 
 export default {
-  content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     fontFamily: {
       ...fontFamily,

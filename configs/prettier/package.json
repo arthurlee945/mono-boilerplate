@@ -12,11 +12,5 @@
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.9",
     "typescript": "^5.3.3"
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@repo/eslint/base.cjs"
-    ]
   }
 }

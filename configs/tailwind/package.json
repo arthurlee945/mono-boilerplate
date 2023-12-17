@@ -6,8 +6,7 @@
   "files": [
     "index.ts",
     "postcss.cjs",
-    "defaults/colors.ts",
-    "defaults/font/font.css"
+    "defaults/*"
   ],
   "scripts": {
     "clean": "rm -rf .turbo node_modules",
@@ -21,17 +20,17 @@
     "tailwindcss": "^3.3.6"
   },
   "devDependencies": {
-    "@repo/eslint": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
     "@repo/prettier": "workspace:*",
     "@repo/tsconfig": "workspace:*",
-    "eslint": "^8.53.0",
+    "eslint": "^8.56.0",
     "prettier": "^3.1.1",
     "typescript": "^5.3.3"
   },
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@repo/eslint/base.cjs"
+      "@repo/eslint-config/base.js"
     ]
   },
   "prettier": "@repo/prettier"
